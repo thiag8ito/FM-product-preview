@@ -1,0 +1,14 @@
+@media (max-width: 600px){
+    .cartao{
+        flex-wrap: wrap;
+        width: 350px;
+    }
+
+    .image img{
+        border-radius: 8px 8px 0px 0px !important;
+    }
+
+    .informacoes-do-produto{
+        gap: 15px;
+    }
+}

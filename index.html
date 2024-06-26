@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="stylesheet" href="./src/css/font-awesome.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+  <main>
+    <div class="cartao">
+      <div class="image">
+        <picture>
+          <source srcset="./src/images/image-product-mobile.jpg" media="(max-width: 600px)">
+
+          <img src="./src/images/image-product-desktop.jpg" alt="imagem do produto">
+        </picture>
+      </div>
+
+      <section class="informacoes-do-produto">
+        <p class="tipo-produto">Perfume</p>
+        <h1 class="nome-do-produto">Gabrielle Essence Eau De Parfum</h1>
+        <p class="descricao-do-produto">
+          A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Crator for the House of
+          CHANEL.
+        </p>
+        <div class="precos">
+          <h1 class="preco">$149.99</h1>
+          <p class="preco-anterior">$169.99</p>
+        </div>
+        <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
